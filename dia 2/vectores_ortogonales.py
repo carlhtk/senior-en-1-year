@@ -10,8 +10,8 @@ def projectation(a, b):
     scalar_proj = np.dot(a, b) / np.dot(b, b)
     return scalar_proj * b
 
-a = np.array([3, 4])
-b = np.array([5, 0])
+a = np.array([1, 1, 1])
+b = np.array([1, 0, 0])
 
 proj_a_sobre_b = projectation(a, b)
 
